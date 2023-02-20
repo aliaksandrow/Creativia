@@ -1159,3 +1159,54 @@ footer a {
 	}
 
 }
+
+@media screen and (max-width: 480px) {
+  .title p {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+  }
+  .logo img {
+
+  }
+  ul.products {
+    justify-content: center;
+   }
+  .productCheckPic {
+    padding-top: 30px;
+  }
+  .descriptionSlider {
+    padding-top: 50px;
+}
+  .descriptionSliderActive {
+    left: 50px;
+}
+  /* -------- features ---------*/
+  .features {
+    margin: 50px 0 70px;
+  }
+  .examples {
+    margin-top: -60px;
+  }
+  .mob {
+    justify-content: center;
+  }
+  ul.featuresProd, .clients-board {
+    margin: auto;
+    justify-content: center;
+}
+/* ----------- clients ----------*/
+  .note {
+   width: 390px;
+   margin-bottom: 30px;
+  }
+  .reviewsList {
+   margin-bottom: -60px;
+  }
+  .notePic {
+   width: 390px;
+  }
+/* -------------- teamwork ----------*/
+    .team {
+      justify-content: center;
+    }
+}
